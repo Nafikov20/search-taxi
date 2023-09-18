@@ -1,0 +1,29 @@
+.Button {
+    padding: 10px 30px;
+    height: max-content;
+    width: max-content;
+    color: white;
+    background-color: #B0976AFF;
+    border: 1px solid #B0976AFF;
+    border-radius: 5px;
+    outline: transparent;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.Button:hover {
+    background-color: #997E4DFF;
+}
+
+.Button__disabled {
+    color: #BFBFBFFF;
+    background-color: #F5F5F5FF;
+    border-color: #F5F5F5FF;
+    cursor: default;
+}
+
+.Button__disabled:hover {
+    color: #BFBFBFFF;
+    background-color: #F5F5F5FF;
+    border-color: #F5F5F5FF;
+}

@@ -1,0 +1,30 @@
+.Car {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 10px;
+    transition: all .15s ease-in-out;
+}
+
+.Car:hover,
+.Car._selected-Car{
+    transition: all .15s ease-in-out;
+    background-color: #e8cd99;
+}
+
+.Car__info {
+    display: flex;
+    gap: 10px;
+}
+
+.Car__title {
+    margin-bottom: 5px;
+}
+
+.Car__distance-wrapper {
+    display: flex;
+    flex-direction: column;
+}

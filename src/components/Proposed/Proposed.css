@@ -1,0 +1,22 @@
+.Proposed {
+    position: relative;
+    width: 450px;
+}
+.Proposed__field h4 {
+    margin-top: 15px;
+}
+
+.Proposed__input {
+    width: 100%;
+    border: 1px solid #00000026;
+    padding: 15px;
+    box-shadow: 1px 1px 5px #0000000C;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.Proposed__label {
+    margin-bottom: 15px;
+    display: block;
+}

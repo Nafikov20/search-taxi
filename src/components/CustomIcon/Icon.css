@@ -1,0 +1,10 @@
+.Icon {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+
+.Icon svg {
+    display: inline-block;
+    height: max-content;
+}

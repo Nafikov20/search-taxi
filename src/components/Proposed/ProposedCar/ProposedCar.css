@@ -1,0 +1,39 @@
+.ProposedCar {
+    margin-top: 15px;
+    max-width: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+}
+
+.ProposedCar:hover {
+    transition: all .15s ease-in-out;
+    background-color: #e8cd99;
+}
+
+.ProposedCar__car {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+
+.ProposedCar__car-color {
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: #00000099;
+}
+
+.ProposedCar__number {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 3px;
+    width: fit-content;
+}
+
